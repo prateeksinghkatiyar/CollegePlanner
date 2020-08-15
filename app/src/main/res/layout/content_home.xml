@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_userPic1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="5sp"
+                android:layout_marginTop="5sp"
+                android:src="@drawable/holder" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_userName1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="User Name"
+                    android:textColor="@color/darkGrey"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Uploaded on"
+                        android:textColor="@color/lightGrey"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txt_postTime1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="Time"
+                        android:textColor="@color/lightGrey"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btn_more1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_more"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/img_postImage1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/layout1"
+            android:layout_margin="4sp"
+            android:adjustViewBounds="true"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txt_postDescription1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_postImage1"
+            android:layout_margin="4sp"
+            android:autoLink="all"
+            android:text="Post Discription..."
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/pCommentsTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_postDescription1"
+            android:layout_margin="4sp"
+            android:text="1.2k Comments"
+            android:textStyle="italic"
+            android:textColor="@color/lightGrey"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_below="@id/pCommentsTv"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Space
+                android:layout_width="50sp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_comment1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_comment"
+                android:text="comments"
+                android:textColor="@color/darkGrey"
+                android:textAllCaps="false"/>
+
+            <Space
+                android:layout_width="80sp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_share1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_share"
+                android:text="share"
+                android:textColor="@color/darkGrey"
+                android:textAllCaps="false"/>
+
+            <Space
+                android:layout_width="50sp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

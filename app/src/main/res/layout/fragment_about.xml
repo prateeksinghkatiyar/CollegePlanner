@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/thankyou_for_using_this_application_the_app_is_design_based_on_college_school_information_exchange_system_it_provide_better_medium_to_communicate_with_the_friends_and_teachers" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/a"
+        android:text="Developed By"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightGrey"
+        android:textSize="18sp"
+        android:layout_below="@id/b"
+        android:text="Prateek Singh Katiyar"
+        android:textStyle="bold"
+        android:drawablePadding="5dp"
+        android:layout_marginEnd="5dp"/>
+
+
+    <TextView
+        android:id="@+id/linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/c"
+        android:text="@string/in_prateek_singh_katiyar_22771413a"
+        android:drawableStart="@drawable/ic_linkedin"
+        android:drawablePadding="5dp"/>
+    <TextView
+        android:id="@+id/gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/linkedin"
+        android:text="katiyar.prateek999@gmail.com"
+        android:drawableStart="@drawable/ic_gmail"
+        android:drawablePadding="5dp"/>
+    <TextView
+        android:id="@+id/git"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/gmail"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="@string/prateeksinghkatiyar"
+        android:drawableStart="@drawable/ic_github"
+        android:drawablePadding="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/git"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher_foreground" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

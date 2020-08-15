@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "68132966754",
+    "firebase_url": "https://college-123.firebaseio.com",
+    "project_id": "college-123",
+    "storage_bucket": "college-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68132966754:android:498e8c9c9d7283b9cf9c3b",
+        "android_client_info": {
+          "package_name": "com.example.collegeplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68132966754-gspjmnoa6f65tet9nrgj1gi8m7ug1r2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvKms3krPyd_b2mviX1RQgBO9yw0LumC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68132966754-gspjmnoa6f65tet9nrgj1gi8m7ug1r2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68132966754:android:68bad6a73a2a35c1cf9c3b",
+        "android_client_info": {
+          "package_name": "com.example.student"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68132966754-gspjmnoa6f65tet9nrgj1gi8m7ug1r2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvKms3krPyd_b2mviX1RQgBO9yw0LumC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68132966754-gspjmnoa6f65tet9nrgj1gi8m7ug1r2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

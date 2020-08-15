@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">College Planner</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="sign_in">Sign in</string>
+    <string name="forget_password">Forget password</string>
+    <string name="keep_me_logged_in">Keep me logged in</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="are_you_faculty">Are you faculty ?</string>
+    <string name="college_planner">College Planner</string>
+    <string name="by_continuing_you_agree_to_our_privacy_policy_and_terms_of_service">by continuing you agree to our privacy policy and terms of service</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="faculty_login">Faculty Login!</string>
+    <string name="add_new_image">Add new image</string>
+    <string name="computer_science_and_engg">Computer Science and Engineering</string>
+    <string name="mechanical_engineering">Mechanical Engineering</string>
+    <string name="civil_engineering">Civil Engineering</string>
+    <string name="update_image">Update Image</string>
+    <string name="thankyou_for_using_this_application_the_app_is_design_based_on_college_school_information_exchange_system_it_provide_better_medium_to_communicate_with_the_friends_and_teachers">Thankyou for using this application. The app is design based on college/school information exchange system. It provide better medium to communicate with the friends and teachers.</string>
+    <string name="prateeksinghkatiyar">
+        <a href="https://github.com/prateeksinghkatiyar" />/prateeksinghkatiyar</string>
+    <string name="in_prateek_singh_katiyar_22771413a">
+        <a href="https://www.linkedin.com/in/prateek-singh-katiyar-22771413a/" />/in/prateek-singh-katiyar-22771413a</string>
+    <string name="update_password">Update Password</string>
+
+</resources>

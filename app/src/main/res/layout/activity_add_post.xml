@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPost">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_post"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_post">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lyt_all_post_layout"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_addimage"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:id="@+id/img_post" />
+
+            <EditText
+                android:id="@+id/txt_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Say something about your post"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit post"
+                android:id="@+id/btn_post"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:backgroundTint="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
